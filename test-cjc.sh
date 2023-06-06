@@ -2,8 +2,7 @@
 
 set -eux
 
-downloadUrls="http://download.eng.bos.redhat.com/brewroot/packages
-http://download.eng.bos.redhat.com/brewroot/vol/rhel-6/packages
+downloadUrls="https://kojihub.stream.centos.org/kojifiles/packages
 https://kojipkgs.fedoraproject.org/packages"
 
 while [ "$#" -gt 0 ] ; do
